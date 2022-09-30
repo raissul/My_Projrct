@@ -6,8 +6,11 @@ body{
   font-family: 'Poppins',sans-serif;
   padding: 50px;
   text-align: center;
+  background: black;
+  overflow: hidden;
   
 }
+
 .container{
   height: 250px;
   width: 250px;
