@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card | Raissul</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="img/photo_2022-09-26_19-52-02.jpg" alt="">
+            </a>
+            <div class="title">
+               Raissul Islam Sajieeb
+            </div>
+            <div class="place">
+               Jashore, Bangladesh
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               Student Of CSE <br>Mait Jashore
+            </p>
+            <div class="buttons">
+
+               <div class="buttons">
+
+                <button onclick="setClipboard('/img/Import.csv')">Set Clipboard</button> 
+                    
+                 </div>
+                 
+              </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/raissul.00.sajieeb"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="tel:+4733378901"><span class="fas fa-phone"></span></a></li>
+            <li><a href="https://t.me/raissul"><span class="fas fa-paper-plane"></span></a></li>
+            <li><a href="mailto:raissulislamsajieeb@gmail.com"><span class="fas fa-comments"></span></a></li>
+         </div>
+      </div>
+
+
+   <!--  <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         };
+
+        
+         function setClipboard(value) {
+    var tempInput = document.createElement("input");
+    tempInput.style = "position: absolute; left: -1000px; top: -1000px";
+    tempInput.value = value;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+}
+  
+
+
+      </script> --->
+   </body>
+</html>
