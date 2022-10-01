@@ -1,79 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Profile Card | Raissul</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   </head>
-   <body>
-      <div class="container">
-         <div class="wrapper">
-            <a href="#">
-            <img src="img/photo_2022-09-26_19-52-02.jpg" alt="">
-            </a>
-            <div class="title">
-               Raissul Islam Sajieeb
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<title>Graham Walker - Weekend Mode</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="weekend-mode">
+
+<div class="body-bg" style="background-image: url(images/background/weekend-bg.jpg);"></div>
+
+<div class="page-wrapper">
+  
+    <!-- Preloader -->
+    <div class="preloader"><div class="icon"></div></div>
+  
+   
+    <!-- Site Container-->
+    <div class="site-container">
+
+        <div class="mode-switch">
+            <div class="switcher clearfix">
+                <div class="left-text">Weekend Mode</div>
+                <div class="switch-btn"><div class="btn-inner"><div class="circle"></div><div class="txt">ON</div></div><a href="index.html"></a></div>
             </div>
-            <div class="place">
-               Jashore, Bangladesh
-            </div>
-         </div>
-         <div class="content">
-            <p>
-               Student Of CSE <br>Mait Jashore
-            </p>
-            <div class="buttons">
+        </div>
 
-               <div class="buttons">
+        <div class="auto-container">
+            <div class="weekend-content row clearfix">
 
-                <button>Set Clipboard</button>
-                <button>Set Clipboard</button> 
-                <button>Set Clipboard</button> 
-                    
-                 </div>
-                 
-              </div>
-         </div>
-         <div class="icons">
-            <li><a href="https://www.facebook.com/raissul.00.sajieeb"><span class="fab fa-facebook-f"></span></a></li>
-            <li><a href="tel:+8801791377886"><span class="fas fa-phone"></span></a></li>
-            <li><a href="https://t.me/raissul"><span class="fas fa-paper-plane"></span></a></li>
-            <li><a href="mailto:raissulislamsajieeb@gmail.com"><span class="fas fa-comments"></span></a></li>
-         </div>
-      </div>
 
-   <!--  <div class="wrapper1">
+
+                <div class="wrapper1">
                     <textarea id="original">
 ### AUTOFILL PROFILES ###,,,,,,&#13;&#10;Profile ID,Name,Site,Hotkey,,,&#13;&#10;### AUTOFILL RULES ###,,,,,,&#13;&#10;Rule ID,Type,Name,Value,Site,Mode,Profile&#13;&#10;r9,0,"div.col-md-5.col-sm-5.main-section:nth-of-type(2) > form:first-child > div:first-child > input.form-control[type=""text""]:last-child","building name","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r10,0,"div.col-md-5.col-sm-5.main-section:nth-of-type(2) > form:first-child > div:nth-child(2) > input.form-control[type=""text""]:last-child","House No:*","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r11,0,"div:nth-of-type(3) > input.form-control[type=""text""]:last-child","Sub Area","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r12,0,"div.col-md-5.col-sm-5.main-section:nth-of-type(3) > form:first-child > div:first-child > input.form-control[type=""text""]:last-child","Building Name Bangla","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r13,0,"div.col-md-5.col-sm-5.main-section:nth-of-type(3) > form:first-child > div:nth-child(2) > input.form-control[type=""text""]:last-child","Road:","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r15,3,"^radioGroup3$","1","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r14,3,"^radioGroup$","1000","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;r16,3,"^radioGroupMaximumAccessibility$","01","mapping-ui.chaldal.com/BuildingInfoAddEditComponent",0,&#13;&#10;### AUTOFILL OPTIONS ###,,,,,,&#13;&#10;advanced,"[]",,,,,&#13;&#10;exceptions,"[]",,,,,&#13;&#10;textclips,"[]",,,,,&#13;&#10;variables,"[]",,,,,&#13;&#10;backup,0,30,,,,&#13;&#10;manual,0,,,,,&#13;&#10;delay,0,1,,,,&#13;&#10;labelmatch,0,,,,,&#13;&#10;overwrite,0,,,,,&#13;&#10;vars,1,,,,,&#13;&#10;sound,1,,,,,&#13;&#10;voice,0,1,,,,&#13;&#10;debug,0,,,,,&#13;&#10;mask,1,,,,,&#13;&#10;scale,1,,,,,&#13;&#10;menu,1,,,,,&#13;&#10;autoimport,0,,,,,
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                     </textarea>
                     <button class="btn">Copy</button>
-                </div> 
-                
-                
-                
-                
-                document.querySelector(".btn").addEventListener("click", copy);
+                </div>
 
-                    function copy() {
-                        let fake = document.createElement("textarea");
-                        fake.value = document.querySelector("#original").value;
-                        //fake.value = "1\n2\n3";
-                        document.body.appendChild(fake);
-                        fake.select();
-                        document.execCommand("copy");
-                        document.body.removeChild(fake);
-                        let notice = document.createElement("span");
-                        notice.className = "notice visible";
-                        notice.innerHTML = "Text copied to the clipboard!";
-                        document.body.appendChild(notice);
-                        setTimeout(() => {
-                            document.body.removeChild(notice);
-                        }, 3000);
-                    }
-                    
+
+                <script>
                 
-                --->
-   </body>
+                </script>
+
+
+ 
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fas fa-arrow-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/knob.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/custom-script.js"></script>
+</body>
+
+
 </html>
